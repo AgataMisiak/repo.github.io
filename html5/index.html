@@ -57,6 +57,30 @@
             </tr>
         </tfoot>
     </table>
+
+    <!-- formularz -->
+    <form action="" method="POST">
+        <label for="user">Imię i nazwisko</label>
+        <input id="user" type="text" name="user" placeholder="Imię i nazwisko">
+        <input id="email" type="email" name="email" placeholder="email" disabled>
+        <input type="quantity" name="quantity" value="2">
+        <input type="checkbox" name="agreement" id="zgoda" required>Wyrażam zgodę na
+        <label ><input type="radio" name="gender">Kobieta</label>
+        <label ><input type="radio" name="gender">Mężczyzna</label>
+
+        <select name="cities" id="">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdynia">Gdynia</option>
+        </select>
+
+        <textarea name="message" placeholder="rozpisz się trochę"></textarea>
+        <input type="submit" value="Submit">
+        
+    </form>
+
+
+
+
 </body>
 
 </html>
