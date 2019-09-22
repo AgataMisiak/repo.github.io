@@ -1,0 +1,21 @@
+/* #strawberry{
+    height:10%;
+    width:10%;
+    float:left;
+} */
+#strawberry{
+    height:10%;
+    width:10%;
+    float:none;
+}
+
+#strawberry2{
+    height:10%;
+    width:10%;
+    float:right;
+}
+
+p:last-child{
+    background-color: blue;
+    clear:both;
+}
