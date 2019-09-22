@@ -1,0 +1,9 @@
+.idk::before {
+    content: "To jest tekst przed";
+    color: greenyellow;
+    font-family:serif;
+    }
+
+
+
+
