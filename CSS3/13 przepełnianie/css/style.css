@@ -16,7 +16,8 @@
 }
 
 #scroll{
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x:hidden;
     color:violet;
 }
 
