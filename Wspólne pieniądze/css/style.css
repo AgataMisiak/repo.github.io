@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(97, 112, 112);
+}
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+    border: 2px dashed #dadada;
+    float: left;
+    padding: 2em;
+    }
+    .fileContainer [type=file] {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .fileContainerFileName {
+    width: 360px;
+    border: 1px solid #a0a0a0;
+    display: inline-block;
+    padding: 0.5em;
+    border-right: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+    .fileContainerButton {
+    padding: 0.5em;
+    border: 1px solid #a0a0a0;
+    float: right;
+    display: inline-block;
+    }
+    .fileContainerDragOver {
+    background-color: gold;
+    border: 2px solid #808080;
+    }
