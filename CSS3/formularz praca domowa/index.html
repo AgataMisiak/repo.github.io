@@ -8,49 +8,42 @@
 </head>
 
 <body>
-   
-    <!-- Zadanie domowe zrob z wykorzystaniem serwisu https://formspree.io -->
-    
-    <form action="https://formspree.io/agatamisiak.1992@wp.pl" method="POST">
-        <label for="name">Imię:</label>
-        <input type="text" name="name" id="name">
+   <form action="https://formspree.io/email@domain.tld"  method="POST">
+    <label for="username">Imię: </label>
+    <input type="text" name="username"> 
+    <label for="usersurname">Nazwisko: </label>
+    <input type="text" name="usersurname"> 
+    <label for="mail">E-mail: </label>
+    <input type="email" name="mail">
+    <label for="tel">Telefon: </label>
+    <input type="tel" name="tel">
+    <label for="city">Miasto: </label>
+    <select name="city"> 
+        <option value="Kraków">Kraków</option> 
+        <option value="Warszawa" selected>Warszawa</option> 
+        <option value="Gdańsk">Gdańsk</option> 
+    </select>
+    <label for="gender">Płeć: </label>
+    <input type= "radio" name="gender">Mężczyzna 
+    <input type= "radio" name="gender">Kobieta
+    <label for="agreement">Zgoda: </label>
+    <input type= "checkbox" name="agreement">Wyrażam zgodę na RODO ;)
+    <label for="message">Wiadomość: </label>
+    <textarea maxlength="1000" name="message"></textarea>
 
-        <br>
-        <label for="lastname">Nazwisko:</label>
-        <input type="text" name="lastname" id="lastname">
-
-        <br>
-        <label for="mail">E-mail:</label>
-        <input type="email" name="_replyto" id="mail">
-
-        <br>
-        <label for="phone">Telefon:</label>
-        <input type="tel" name="phone" id="phone">
-
-        <br>
-        <label for="city">Wybierz miasto:</label>
-        <select name="city" id="city">
-            <option value="krakow">Kraków</option>
-            <option value="warszawa">Warszawa</option>
-            <option value="gdansk">Gdańsk</option>
-        </select>
-
-        <br>
-      	<p>Wybierz płeć:</p>
-        <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
-        <br>
-        <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
-        <br>
-
-        <br>
-        <label for="message">Wiadomość: </label>
-        <textarea name="message" id="message"></textarea>
-        <br>
-        <input type="checkbox" id="agreement" name="agreement">
-        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
-        <br>
-        <input type="submit" value="Send">
-    </form>
+    <input type="submit">
+   </form>
 </body>
 
 </html>
+
+<!-- Stwórz formularz, który pozwoli na zapis uczestnika na szkolenie - pola:
+
+- imię
+- nazwisko
+- mail
+- telefon
+- wybór miasta (Kraków, Warszawa, Gdańsk) - select
+- płeć - radio
+- zgoda na dane osobowe - checkbox
+- wiadomość - textarea -->
