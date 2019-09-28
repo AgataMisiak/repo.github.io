@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    color: #333;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:#777;
+    font-size:10px;
+    margin: 0 auto;
+    padding: 0 px;
+}
+
+hr{
+    background-color: blue;
+    border:0;
+    height:1px;
+    width:7em;
+}
+
+section{
+    padding:10em 0px;
+    text-align:center;
+}
+
+.title{
+    margin-bottom: 6em;
+}
+.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid blue;
+    margin:auto;
+    padding:1.5em 2 em;
+    display: inline-block;
+    transition:all 1s;
+    font-size:1.5em;
+    color: #333;
+    background-color: transaparent;
+    cursor: pointer;
+}
+
+/* section,header{
+    margin-bottom: 75px;
+} */
+header{
+    height:70vh;
+    display:flex;
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+
+
+h1{
+    color:rgb(107, 107, 250);
+    font-size: 5.5em;
+    margin: auto 0;
+
+} 
+
+.claim p span{
+    color: blue;
+}
+nav,.nav-menu{
+    position:sticky;
+    background-color: blue;
+    top:0;
+    z-index:100;
+    height:40px;
+    text-align: center;
+    display: flex;
+}
+
+.nav-menu .menu-item{
+    /* display:inline-block; */
+    margin: 0e, 1.5em;
+    font-size:1.5em;
+}
+
+.menu-item,li{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1px;
+    margin-top: 0.5em;
+    /* display:center ; */
+}
+
+
+
+
+
+
+
