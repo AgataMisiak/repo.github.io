@@ -1,0 +1,16 @@
+.container{
+    border:1px dotted olive ;
+    display: flex;
+}
+
+.flex-item{
+    background-color: aliceblue;
+    color: navy;
+    border: olivedrab 1px solid;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-item:nth-child(2n-1){
+    background-color: green;
+}
