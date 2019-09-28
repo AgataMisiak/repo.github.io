@@ -1,0 +1,22 @@
+*{
+    /* padding ma wpływ na wielkość elementu */
+    /* border-box sprawia, że boerder i padding 
+    nie mają wpływu na wielkość, 
+    dlatego się mieszczą */
+    /* box-sizing: padding-box; */
+    box-sizing: border-box;
+}
+
+body{
+    background-color:grey;
+    font-size: 0;
+}
+
+.box{
+    font-size: 15px;
+    height: 300px;
+    width: 50%;
+    padding: 50px;
+    float:left;
+    border: 10px solid red;
+}
