@@ -244,10 +244,12 @@ footer>p{
 @media (min-width:792px) and (max-width:852px) {
     #photos img{
         height: 100%;
+        /* width:80%; */
     }
     .photos_2 {
         position:relative;
         flex-basis: 30%;
+        height:13em;
     }
 }
 
