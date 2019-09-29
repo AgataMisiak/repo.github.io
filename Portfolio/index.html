@@ -5,6 +5,7 @@
     <title>Podstawowe selektory</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0" >
 </head>
 <body>
     <header>
@@ -23,14 +24,91 @@
         </div>
     </header>
     <nav class="nav-menu">
-        <li class="menu-item">O mnie</li>
-        <li class="menu-item">Portfolio</li>
-        <li class="menu-item">Kontakt</li>
+        <li class="menu-item"><a href="#about">O mnie</a></li>
+        <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="menu-item"><a href="#contact">Kontakt</a></li>
     </nav>
-    <section id="sekcja1"></section>
-    <section id="sekcja2"></section>
-    <section id="sekcja3"></section>
-    <footer></footer>
+    <section id="about">
+        <div class="container about">
+            <h2>O mnie</h2>
+            <hr>
+        </div>
+        <img src="img/about.jpg" alt="profile photo">
+        <div class="text">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati accusantium hic placeat suscipit ipsum asperiores magnam! Dolor rerum distinctio debitis amet eligendi. Amet, ab. Odio corporis explicabo nesciunt doloremque eaque?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam explicabo facere fuga consequatur velit placeat distinctio, maiores qui optio ullam sapiente, quia itaque voluptatum esse dolor veniam iusto quod cumque.
+            </p>
+        </div>
+        <a href="#portfolio" class="button">Moje portfolio</a>
+    </section>
+    <section id="portfolio">
+        <container id="portfolio_container">
+                <h2>Portfolio</h2>
+                <hr>
+                <div id="photos">
+                        <div class="photos_2">
+                            <img id="img1" src="img/portfolio/photo-1.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-2.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-3.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-4.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-5.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-6.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-7.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-8.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-9.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-10.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-11.jpg" alt="first-photo">
+                        </div>
+                        <div class="photos_2">
+                            <img src="img/portfolio/photo-12.jpg" alt="first-photo">
+                        </div>
+                </div>
+        </container>
+    </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+            <hr>
+        <form action="">
+            <input type="text" name="name" id="name" value="Imię">
+            <input type="mail" name="mail" id="mail" value="E-mail"><br>
+            <textarea rows="4" cols="42.9999" maxlength="1000" name="message">Wiadomość</textarea><br>
+            <input type="submit" value="Wyślij wiadomość" class="button">
+        </form>
+        <container id="icons">
+            <!-- <a href="#"> -->
+                <img class="icon" src="img/icons/facebook.svg" alt="Facebook icon">
+                <img class="icon" src="img/icons/instagram.svg" alt="Instagram icon">
+                <img class="icon" src="img/icons/twitter.svg" alt="Twitter icon">
+                <img class="icon" src="img/icons/youtube.svg" alt="youtube icon">
+            <!-- </a> -->
+        </container>
+    </section>
+    <footer>
+        <p id="footer_text">Copyright C Akademia 108 - Szkoła Programowania</p>
+    </footer>
 
    
 </body>
