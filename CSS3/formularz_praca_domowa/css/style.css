@@ -1,14 +1,14 @@
 label{
     padding:10px;
 }
-input, select, textarea{
+p, input, select, textarea{
     margin-left:10px;
 }
 
 form{
     background-color: rgb(230, 164, 213);
     height:550px;
-    width:300px;
+    width:400px;
 }
 
 [type="text"],[type="mail"],[type="tel"],[type="submit"],label{
@@ -16,7 +16,7 @@ form{
     display: block;
 }
 
-[type="radio"],#agreement{
+[for="male"],[for="female"], [type="radio"],#agreement{
     display: inline;
 }
 
