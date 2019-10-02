@@ -1,0 +1,58 @@
+*{
+    font-family: Verdana, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media (min-width:1170px) {
+    body{
+        background-image: url("img/man-1.jpg");
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 100% 100vh;
+        /* display: inline; */
+    }
+    h1,h2{
+        /* display:inline; */
+        margin-left: 5%;
+        /* margin-top: 50%; */
+    }
+    h2{
+        margin-top: 35vh;
+    }
+    }
+
+
+@media (min-width:992px) and (max-width:1169px) {
+    body{
+        background-image: url("img/man-2.jpg");
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 100% 70vh;
+    }
+    h1,h2{
+        /* display:inline; */
+        margin-left: 55%;
+        /* margin-top: 50%; */
+    }
+    h2{
+        margin-top: 5%;
+    }
+    }
+
+    @media (min-width:0px) and (max-width:991px) {
+        body{
+            background-image: url("img/man-1.jpg");
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: 100% 50vh;
+        }
+        h1,h2{
+            text-align:center;
+            /* margin-left: 15%; */
+            color:black;
+            /* margin-top: 50%; */
+        }
+        h2{
+            margin-top: 53vh;
+        }
+        }
+
