@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:5px;
+}
+
+.blue{
+    /* background-color: blue; */
+    color: blue;
+}
+
+
+h3{
+    display:inline;
+};
+
