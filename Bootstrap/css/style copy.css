@@ -1,0 +1,38 @@
+/* .cont-example {
+    background-color: chartreuse;
+    height: 300px;
+}
+
+
+
+.item{
+    height: 400px;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.item:nth-child(2n){
+    background-color: lightgray;
+} */
+
+.nav-item{
+    background-color: grey;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+/* .container-main{
+    height:400px;
+} */
+
+.container{
+    background-color: rgba(59, 58, 58, 0.5);
+}
+
+input,textarea{
+    display:inline;
+    margin:10px;
+}
