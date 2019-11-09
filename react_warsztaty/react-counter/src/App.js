@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Users title="Lista użytkowników" />
-      <List initValue='Agatka'/>
+      <List initValue=''/>
     </div>
   );
 }
